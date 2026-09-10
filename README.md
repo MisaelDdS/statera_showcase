@@ -142,4 +142,5 @@ Data flow: `Page → BLoC → UseCase → Repository → Datasource → Supabase
 
 **Misael Santos** · [misael.dias.santos@gmail.com](mailto:misael.dias.santos@gmail.com)
 
-Source code available for review on request.
+The codebase is private. Happy to walk through the architecture and the
+decisions behind it in a conversation.
