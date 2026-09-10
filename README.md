@@ -56,6 +56,7 @@ https://github.com/user-attachments/assets/cb87a740-ff03-4267-bb80-bac9a0e20c87
 
 **AI coach** — conversational coaching inside the app.
 
+https://github.com/user-attachments/assets/092e07b0-fc4b-4d74-8d1b-15d32a867be9
 
 ---
 
