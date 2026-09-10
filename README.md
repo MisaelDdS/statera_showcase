@@ -24,6 +24,9 @@
 STATERA takes a user from a training plan, through the workout itself, to long-term
 progression — three things that usually live in three separate apps.
 
+The feature list below is deliberately high level. Details of the product design are
+not public while the app is pre-launch.
+
 It ships as a single Flutter codebase (Android, iOS, Web, desktop) on a Supabase backend,
 with an on-device pose model assisting rep counting and an LLM coach built on Edge Functions.
 
@@ -43,14 +46,14 @@ with an on-device pose model assisting rep counting and an LLM coach built on Ed
 | Skill tree | Profile |
 |:---:|:---:|
 | <img src="docs/screenshots/skill-tree.png" width="260"> | <img src="docs/screenshots/profile.png" width="260"> |
-| Skill progression by path and state | Stats, skills, ranking |
+| Skill progression by path and state | Stats, skills and current progression |
 
 ## Demos
 
 | | |
 |:---|:---|
 | **Camera rep counting** | Pose detection assists set counting during a workout — [watch](docs/videos/camera-rep-counting.mp4) |
-| **AI coach** | Conversational coaching grounded in the user's own training context — [watch](docs/videos/ai-coach.mp4) |
+| **AI coach** | Conversational coaching inside the app — [watch](docs/videos/ai-coach.mp4) |
 
 ---
 
@@ -59,11 +62,11 @@ with an on-device pose model assisting rep counting and an LLM coach built on Ed
 <table>
 <tr>
 <td width="60" align="center"><img src="docs/icons/plan.svg" width="34"></td>
-<td><b>Multi-week training plans</b><br>Catalog of plans plus a builder for trainers — weeks, days, sections and per-exercise parameters.</td>
+<td><b>Multi-week training plans</b><br>Structured plans that fill the calendar day by day.</td>
 </tr>
 <tr>
 <td align="center"><img src="docs/icons/workout.svg" width="34"></td>
-<td><b>Guided workout player</b><br>Set-by-set execution with rep and timed modes, auto rest, to-failure sets and perceived-effort logging.</td>
+<td><b>Guided workout player</b><br>Set-by-set execution with rep and timed modes and automatic rest.</td>
 </tr>
 <tr>
 <td align="center"><img src="docs/icons/camera.svg" width="34"></td>
@@ -71,23 +74,23 @@ with an on-device pose model assisting rep counting and an LLM coach built on Ed
 </tr>
 <tr>
 <td align="center"><img src="docs/icons/skills.svg" width="34"></td>
-<td><b>Calisthenics skill tree</b><br>Skills organised in progression paths, each unlocking exercises that feed back into the active plan.</td>
+<td><b>Calisthenics skill tree</b><br>Skills organised in progression paths, unlocked as training advances.</td>
 </tr>
 <tr>
 <td align="center"><img src="docs/icons/coach.svg" width="34"></td>
-<td><b>AI coach</b><br>Two assistants: a coach for every user, and a plan-building assistant for trainers. Per-user usage quotas.</td>
+<td><b>AI coach</b><br>Conversational coaching grounded in the user's own training context. Usage-capped per user.</td>
 </tr>
 <tr>
 <td align="center"><img src="docs/icons/progress.svg" width="34"></td>
-<td><b>Progression tracking</b><br>Streaks, ranking points, body metrics and session history over time.</td>
+<td><b>Progression tracking</b><br>Training streaks and session history over time.</td>
 </tr>
 <tr>
 <td align="center"><img src="docs/icons/social.svg" width="34"></td>
-<td><b>Social layer</b><br>Profiles, follows, direct messages, posts, plus blocking and reporting.</td>
+<td><b>Social layer</b><br>Profiles, follows and posts.</td>
 </tr>
 <tr>
 <td align="center"><img src="docs/icons/privacy.svg" width="34"></td>
-<td><b>Privacy & GDPR</b><br>Consent management, data export and deferred account deletion with a grace period.</td>
+<td><b>Privacy &amp; GDPR</b><br>Consent management, data export and deferred account deletion with a grace period.</td>
 </tr>
 </table>
 
