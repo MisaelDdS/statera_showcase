@@ -50,10 +50,13 @@ with an on-device pose model assisting rep counting and an LLM coach built on Ed
 
 ## Demos
 
-| | |
-|:---|:---|
-| **Camera rep counting** | Pose detection assists set counting during a workout — https://github.com/user-attachments/assets/cb87a740-ff03-4267-bb80-bac9a0e20c87 |
-| **AI coach** | Conversational coaching inside the app — https://github.com/user-attachments/assets/f48e4739-5c5d-4920-95e1-10482db1401a |
+**Camera rep counting** — pose detection assists set counting during a workout.
+
+https://github.com/user-attachments/assets/cb87a740-ff03-4267-bb80-bac9a0e20c87
+
+**AI coach** — conversational coaching inside the app.
+
+https://github.com/user-attachments/assets/f48e4739-5c5d-4920-95e1-10482db1401a
 
 ---
 
