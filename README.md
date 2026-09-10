@@ -33,14 +33,16 @@ with an on-device pose model assisting rep counting and an LLM coach built on Ed
 
 ## Screens
 
+<sub>Interface in European Portuguese — the product ships PT-first.</sub>
+
 | Home | Schedule |
 |:---:|:---:|
-| <img src="docs/screenshots/home.jpeg" width="260"> | <img src="docs/screenshots/schedule.jpeg" width="260"> |
+| <img src="docs/screenshots/home.png" width="260"> | <img src="docs/screenshots/schedule.png" width="260"> |
 | Today's session, streak, weekly summary | Full plan calendar, per-day detail |
 
 | Skill tree | Profile |
 |:---:|:---:|
-| <img src="docs/screenshots/skill-tree.jpeg" width="260"> | <img src="docs/screenshots/profile.jpeg" width="260"> |
+| <img src="docs/screenshots/skill-tree.png" width="260"> | <img src="docs/screenshots/profile.png" width="260"> |
 | Skill progression by path and state | Stats, skills, ranking |
 
 ## Demos
